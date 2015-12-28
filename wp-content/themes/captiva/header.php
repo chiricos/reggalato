@@ -118,6 +118,33 @@ if (!empty($_SESSION['cap_header_top'])){
             <!-- /preloader -->
         <?php } ?>
 
+	
+	<div class="top-reggalato">
+		<div>
+			<figure>
+			<a href="/">
+				<img src="http://localhost:8888/mios/reggalato/wp-content/uploads/2015/11/logo-blanco.png" >
+			</a>
+			</figure>
+		<p>reggalato</p>
+		<p>regala un detalle, regala felicidad.</p>
+		</div>
+	</div>
+
+	<div class="social-reggalato">
+		<div>
+			<a href="https://www.facebook.com">
+			<img style="opacity:0.8" src="http://localhost:8888/mios/reggalato/wp-content/uploads/2015/11/facebook.png" >
+			</a>
+			<a href="https://www.facebook.com">
+			<img style="opacity:0.7" src="http://localhost:8888/mios/reggalato/wp-content/uploads/2015/11/p.png" >
+			</a>
+			<a href="https://www.facebook.com">
+			<img src="http://localhost:8888/mios/reggalato/wp-content/uploads/2015/11/i.png" >
+			</a>
+		</div>
+	</div>
+
         <div id="wrapper">
             <?php
             if ( $cap_topbar_display == 'yes' ) {
